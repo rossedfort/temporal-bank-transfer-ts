@@ -1,0 +1,12 @@
+{
+  "extends": "@tsconfig/node18/tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./lib"
+  },
+  "ts-node": {
+    "files": true,
+    "esm": true
+  },
+  "include": ["src/**/*.ts"]
+}

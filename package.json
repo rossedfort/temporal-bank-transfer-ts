@@ -1,0 +1,25 @@
+{
+  "name": "temporal-bank-transfer-ts",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start:worker": "ts-node src/worker.ts",
+    "run:workflow": "ts-node src/client.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@temporalio/worker": "1.8.6",
+    "@temporalio/workflow": "1.8.6",
+    "@temporalio/activity": "1.8.6",
+    "@temporalio/common": "1.8.6",
+    "@temporalio/client": "1.8.6"
+  },
+  "devDependencies": {
+    "@tsconfig/node18": "18.2.2",
+    "@types/node": "20.8.2",
+    "typescript": "5.2.2",
+    "ts-node": "10.9.1"
+  }
+}
